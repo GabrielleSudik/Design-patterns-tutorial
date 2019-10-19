@@ -8,9 +8,10 @@ using Iterator.Iterator;
 namespace Iterator.Aggregate
 {
     // ConcreteAggregate
+    //step two also
     public class NYPaper : INewspaper
     {        
-        private List<string> _reporters;
+        private List<string> _reporters; //a list
         public NYPaper()
         {
             _reporters = new List<string>

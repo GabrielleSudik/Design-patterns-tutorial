@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Iterator.Iterator
 {
+    //step four also
+
     public class NYPaperIterator : IIterator
     {
         private List<string> _reporters;

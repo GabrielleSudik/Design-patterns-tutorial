@@ -8,9 +8,10 @@ using Iterator.Iterator;
 namespace Iterator.Aggregate
 {
     // ConcreteAggregate
+    //step two
     public class LAPaper : INewspaper
     {        
-        private string[] _reporters;
+        private string[] _reporters;  //an array.
         public LAPaper()
         {
             _reporters = new[] { "Ronald Smith - LA",
@@ -23,7 +24,7 @@ namespace Iterator.Aggregate
 
         public IIterator CreateIterator()
         {
-            return new LAPaperIterator(_reporters);
+            return new LAPaperIterator(_reporters); 
         }
     }
 }
