@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace ObserverPattern
 {
     // Concrete Subject
+    //step four
+    //implements ICelebrity
+
     public class GClooney : ICelebrity
     {        
         private readonly List<IFan> _fans = new List<IFan>();   // Collection
@@ -23,7 +26,8 @@ namespace ObserverPattern
 
             set
             {
-                Notify(value);
+                Notify(value); //calls Notify, which is the method that takes the tweet,
+                    //then iterates through all fans and sends the tweet.
             }
         }
 

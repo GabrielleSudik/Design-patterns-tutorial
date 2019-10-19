@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace ObserverPattern
 {
     // Concrete Observer
+    //step three
+    //implement the IFan class
+    //just sends the tweet.
+
     public class Fan : IFan
     {
         public void Update(ICelebrity celebrity)

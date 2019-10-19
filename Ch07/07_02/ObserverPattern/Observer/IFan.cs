@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace ObserverPattern
 {
     // Observer
+    //step two
+    //create the I fan class, with one method.
+
     public interface IFan
     {
         void Update(ICelebrity celebrity);

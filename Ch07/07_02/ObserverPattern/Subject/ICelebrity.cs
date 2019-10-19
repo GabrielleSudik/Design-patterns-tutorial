@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace ObserverPattern
 {
     // Subject
+    //step one
+    //create an I celebrity class with 3 properies, 2 methods.
+
     public interface ICelebrity
     {
         string FullName { get; }
