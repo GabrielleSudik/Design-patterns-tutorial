@@ -8,9 +8,9 @@ namespace ObserverPattern
 {
     //the change in one object (the subject/publisher) 
     //causes a change in another object(s) (the observers/subscribers)
-    //pretend this code is Twitter.
+    //pretend this project is Twitter.
 
-        //this code comes after everything else.
+        //this file comes after everything else.
 
     class Program
     {
@@ -36,7 +36,7 @@ namespace ObserverPattern
             //when you run the program, you'll see the property Tweet
             //"sets" the method Notify to run, passing the tweet.
             //Notify targets each fan with Update
-            //and Update sends the celebrity's name and their tweet.
+            //and Update shows the celebrity's name and their tweet.
 
             Console.Read();
         }

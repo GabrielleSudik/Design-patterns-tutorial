@@ -11,7 +11,7 @@ namespace Iterator.Aggregate
     //step two
     public class LAPaper : INewspaper
     {        
-        private string[] _reporters;  //an array.
+        private string[] _reporters;  //an array. NYPapter is a list.
         public LAPaper()
         {
             _reporters = new[] { "Ronald Smith - LA",

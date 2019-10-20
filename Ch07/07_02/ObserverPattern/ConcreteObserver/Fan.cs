@@ -9,7 +9,7 @@ namespace ObserverPattern
     // Concrete Observer
     //step three
     //implement the IFan class
-    //just sends the tweet.
+    //just provides info about the tweets "received" from the celebrity.
 
     public class Fan : IFan
     {

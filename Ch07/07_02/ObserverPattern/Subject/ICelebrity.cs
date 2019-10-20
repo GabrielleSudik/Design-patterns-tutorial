@@ -8,7 +8,7 @@ namespace ObserverPattern
 {
     // Subject
     //step one
-    //create an I celebrity class with 3 properies, 2 methods.
+    //create an I celebrity class with 2 properies, 3 methods.
 
     public interface ICelebrity
     {
